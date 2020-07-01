@@ -1,14 +1,13 @@
 import Link from 'next/link';
-import Nav from '../components/Nav';
+import Layout from '../components/Layout';
 
 const About = () => (
-    <div>
-    	<Nav />
+	<Layout title="My Next App" footer="Fin">
         <h2>ABOUT PAGE</h2>
 	    <Link href="/">
 	        <a>Go to index page</a>
 	    </Link>
-    </div>
+    </Layout>
 );
 
 export default About;
