@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Oceloteater/next-ssr#readme",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
